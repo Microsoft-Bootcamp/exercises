@@ -24,7 +24,7 @@ When you run a migration of a pipeline, it generates a set of environment variab
 **Known issue logged with GitHub:** [https://github.com/github/valet/issues/3125](https://github.com/github/valet/issues/3125)
 
 **Remediation:** Manually edit the workflow file and ensure the environment variable uses capitals. Perform the following steps:
-1. Navigate to your workflow file (`.github/workflows/classic_ci.yml`) and edit the file.
+1. Navigate to your workflow file (`.github/workflows/bootcamplabs.yml`) and edit the file.
 2. Update `${{ env.BuildConfiguration }}` in lines 28, 31 and 34 to `${{ env.BUILDCONFIGURATION }}` and save the file.
 3. Rerun the workflow and validate its run in the run history.
 
@@ -54,7 +54,7 @@ When you run a migration of a pipeline, it generates a set of environment variab
   
 **Error:**
 ```
-[yyyy-mm-dd hh:mm:ss] PUT https://api.github.com/repos/Microsoft-Bootcamp/attendee-<yourGitHubhandle>/contents/.github/workflows/classic_ci.yml: 404 - Not Found
+[yyyy-mm-dd hh:mm:ss] PUT https://api.github.com/repos/Microsoft-Bootcamp/attendee-<yourGitHubhandle>/contents/.github/workflows/bootcamplabs.yml: 404 - Not Found
 ```
    
 **Remediation:** Ensure the scope of your workflow is at least the scopes `read packages` and `workflow`. Know that your are not able the see nor change the scope of your PAT after you have created it, so you would need to generate a new PAT.
@@ -62,9 +62,9 @@ When you run a migration of a pipeline, it generates a set of environment variab
 ## _Error 422 - Invalid request, "sha" wasn't supplied_ when 
 **HOL:** [Adding Custom Mappings for you migrations](https://github.com/Microsoft-Bootcamp/HOL/blob/main/Adding-Custom-Mappings-for-your-migrations.md)
 
-**Error:** >PUT https://api.github.com/repos/Microsoft-Bootcamp/attendee-<yourGitHubhandle>/contents/.github/workflows/classic_ci.yml: 422 - Invalid request.
+**Error:** >PUT https://api.github.com/repos/Microsoft-Bootcamp/attendee-<yourGitHubhandle>/contents/.github/workflows/bootcamplabs.yml: 422 - Invalid request.
    
-**Remediation:** To remediate this issue, delete or rename the original `.github/workflows/classic_ci.yml` file. 
+**Remediation:** To remediate this issue, delete or rename the original `.github/workflows/bootcamplabs.yml` file. 
   
 ## No custom transformers found at path: /data/plugin/DotNetCoreCLI.rb    
   
