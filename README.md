@@ -7,7 +7,7 @@ You can find the details for each of the hands-on labs in the sequence of the bo
 Day 1:
 - Exercise 1: [Migrating your repository from Azure DevOps to GitHub](/day-1/1.1-settinguprepository.md)
 - Exercise 2: [Creating your first Action Workflow](/day-1/1.2-myfirstaction.md)
-- Exercise 3: [Migrating Pipelines from Azure DevOps](/day-1/1.3-migration.md)
+- Exercise 3: [Codespaces](/day-1/1.3-codespaces.md)
 
 Day 2:
 - Exercise 1: [Adding Custom Mappings for your migrations](/day-2/2.1-custom-mappings.md)
