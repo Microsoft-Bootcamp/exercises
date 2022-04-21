@@ -10,10 +10,14 @@ Day 1:
 - Exercise 3: [Codespaces](/day-1/1.3-codespaces.md)
 
 Day 2:
-- Exercise 1: [Adding Custom Mappings for your migrations](/day-2/2.1-custom-mappings.md)
-- Exercise 2: [Setting up Code Scanning and Security Scanning for your repository](/day-2/2.2-codescanning.md)
-- Exercise 3: [Enabling and using Dependabot on your repository](/day-2/2.3-dependabot.md)
-- Exercise 4: [Using Code Spaces on your repository](/day-2/2.4-codespaces.md)
+- Exercise 1: [Valet Migration](/day-2/2.1-valet-migration.md)
+- Exercise 2: [Valet Custom Mappings](/day-2/2.2-custom-mappings.md)
+
+Day 3
+- Exercise 1: [Dependabot](/day-3/3.1-dependabot.md)
+- Exercise 2: [Secret Scanning](/day-3/3.2-secretcanning.md)
+- Exercise 3: [Code scanning](/day-3/3.3-codescanning.md)
+
 
 Running into an issue? Errors popping up? We have documented some of the issues that you can run into and ways to solve them, please see [FAQ](faq.md).
 
